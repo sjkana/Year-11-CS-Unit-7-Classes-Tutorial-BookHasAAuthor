@@ -5,7 +5,6 @@ public class AuthorBookTester {
 
     Author author;
     Book book;
-
     public void setUp() {
         author = new Author("Philip K Dick", "pkd@gmail.com", 'm');
         book = new Book("The Man in the High Castle", author, 100, 10);
